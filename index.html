@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora el mundo de Devil May Cry con música y contenido exclusivo." >
+    <meta name="keywords" content="Devil May Cry, DMC, Dante, Vergil, música, videojuegos">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Devil May Sing</title>
+    <link rel="stylesheet" href="DMC.css">
+    <style>
+        /* Efecto neón para el Nombre  esto se lo pedi a chat porque queda lindo :3*/
+        h1 {
+            font-size: 3em;
+            color: #fafafa;
+            text-shadow: 0 0 5px #ff0000, 0 0 10px #ff4500, 0 0 20px #ff4500;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #ff000093, 0 0 10px #ff4500, 0 0 20px #ff4500;
+            }
+            to {
+                text-shadow: 0 0 10px #ff000093, 0 0 20px #ff0000, 0 0 30px #ff0000;
+            }
+        }
+
+        /* Fondo con GIF en el menú */
+        nav {
+            background: url('https://media1.tenor.com/m/Vni5qeg8WvgAAAAC/dante-dance.gif') no-repeat center center;
+            background-size: cover;
+            padding: 40px;
+        }
+
+
+        #explorar .explorar-links {
+        display: inline-block; /* Esto hace que los enlaces se alineen horizontalmente */
+        margin-right: 15px; /* Espacio entre los botones */
+    }
+
+    #explorar .explorar-links a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff4500;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    #explorar .explorar-links a:hover {
+        background-color: #ff0000;
+    }
+    html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="imagenes/fondo.mp4" type="video/mp4">
+    </video>
+    <header>
+        <img src="imagenes/LOGO.png" alt="Logo de Devil May Cry" width="300">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="C:\Users\Rocco\OneDrive\Escritorio\DMC\favicon\site.webmanifest">
+        <nav>
+            <h1>Bienvenido a Devil May Sing</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#explorar">Explorar</a></li>
+                    <li><a href="#footer-contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+    </section>
+    
+    <section id="explorar">
+        <h1 id="frase">"Devils Never Cry."</h1>
+        <h2>Explora nuestro contenido</h2>
+        <h3>Temas Épicos</h3>
+        <div class="explorar-links">
+            <a href="https://www.youtube.com/watch?v=-WpnPSChVRQ&pp=ygUJZG1jIDUgb3N0" target="_blank">Main track Nero</a>
+        </div>
+        <div class="explorar-links">
+            <a href="https://www.youtube.com/watch?v=jozqnG_32i0&pp=ygUJZG1jIDUgb3N0" target="_blank">Main track Dante</a>
+        </div>
+        <div class="explorar-links">
+            <a href="https://www.youtube.com/watch?v=Jrg9KxGNeJY&pp=ygUJZG1jIDUgb3N0" target="_blank">Main track Vergil</a>
+        </div>
+        <p>Escucha los mejores soundtracks de la saga.</p>
+        <div class="explorar-links">
+            <a href="https://www.youtube.com/watch?v=K7guCv3d8Z0" target="_blank">Soundtrack DMC1</a>
+            <a href="https://www.youtube.com/watch?v=DG6gQuhQwT8" target="_blank">Soundtrack DMC2</a>
+            <a href="https://www.youtube.com/playlist?list=PL2AB0E35B36DA9D22" target="_blank">Soundtrack DMC3</a>
+            <a href="https://www.youtube.com/watch?v=A0ccmkl8Qag" target="_blank">Soundtrack DMC4</a>
+            <a href="https://www.youtube.com/watch?v=2nzMLD8piio" target="_blank">Soundtrack DMC5</a>
+        </div>
+        <h3>Galería de Personajes</h3>
+        <a href="galeria.html" class="btn">Ver Galería de Personajes</a>
+        <p>Conoce a Dante, Vergil, Nero y los icónicos personajes de DMC.</p>  
+    </section>b
+
+    <footer id="footer-contact">
+        <h2>Contacto</h2>
+        <p>Email: contacto@devilmaysing.com</p>
+        <p>Síguenos en redes sociales:</p>
+        <a href="https://www.instagram.com/mr.piedro/" class="social-btn">Instagram</a> |
+        <a href="https://x.com/DevilMayCry" class="social-btn">Twitter</a>
+        <p>&copy; 2025 Devil May Sing - Creado por MrPiedro</p>
+    </footer>
+    
+</body>
+</html>
