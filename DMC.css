@@ -11,6 +11,30 @@ body {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 100%;
+    max-width: 1920px; /* Limita el ancho máximo a 1920px */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 1024px) {
+    .container {
+        padding: 20px; 
+    }
+    .header {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; 
+    }
+    .header {
+        font-size: 1.2rem; 
+    }
+}
 
 /* Ajuste para los títulos */
 h1 {
